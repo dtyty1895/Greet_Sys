@@ -1,0 +1,308 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.8f1 (d0e5f0a7b06a) revision 13690352'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'zh' Physical Memory: 15792 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity_Project/GreetSys
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62621
+Successfully changed project path to: D:/Unity_Project/GreetSys
+D:/Unity_Project/GreetSys
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 28.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.8f1 (d0e5f0a7b06a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity_Project/GreetSys/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006179 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 28.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.481 seconds
+Domain Reload Profiling:
+	ReloadAssembly (481ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (345ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (83ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (193ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (29ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001816 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 27.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.736 seconds
+Domain Reload Profiling:
+	ReloadAssembly (737ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (562ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (138ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (27ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2151 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (57.6 KB). Loaded Objects now: 2618.
+Memory consumption went from 93.2 MB to 93.2 MB.
+Total: 2.730300 ms (FindLiveObjects: 0.196700 ms CreateObjectMapping: 0.054100 ms MarkObjects: 2.379900 ms  DeleteObjects: 0.098500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 513921.195344 seconds.
+  path: Assets/Scenes/Start.unity
+  artifactKey: Guid(c3856b2ffc5c42d41a7e32949340859f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Start.unity using Guid(c3856b2ffc5c42d41a7e32949340859f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235f5c9fe598e09069d81f0d10ec9810') in 0.018284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.142184 seconds.
+  path: Assets/Mryotaisu/Models
+  artifactKey: Guid(b6028c8b514537e47880cee76fc5161c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models using Guid(b6028c8b514537e47880cee76fc5161c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9879886517b2540fa07f168d1f0b95ad') in 0.007003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.395880 seconds.
+  path: Assets/Mryotaisu/Animators
+  artifactKey: Guid(478602bdad9c3f34bbd87e4679023a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Animators using Guid(478602bdad9c3f34bbd87e4679023a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4c924e8316f33e493c0c9c856203ba') in 0.005061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.298104 seconds.
+  path: Assets/Mryotaisu/_Demo
+  artifactKey: Guid(9f7266b5e29b0ac4cb8794862da479df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/_Demo using Guid(9f7266b5e29b0ac4cb8794862da479df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3fe56f2c762bbec88bc156d8092995') in 0.005460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.539982 seconds.
+  path: Assets/Mryotaisu/Models/ColliderColumn.fbx
+  artifactKey: Guid(d50c97b07089cf64b9a5e58de8eccc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/ColliderColumn.fbx using Guid(d50c97b07089cf64b9a5e58de8eccc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e42e2cacb661728869bb484cbf6249') in 0.192187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mryotaisu/Models/ColliderWallDoorR.fbx
+  artifactKey: Guid(ca4cc4c0ff4d13044b3b9ff261e5e2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/ColliderWallDoorR.fbx using Guid(ca4cc4c0ff4d13044b3b9ff261e5e2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d22c31c3c4ea8e42b46ead3d37f860') in 0.037299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mryotaisu/Models/LevelFloor.fbx
+  artifactKey: Guid(86484e94ef264d84f8b385ccfa003f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/LevelFloor.fbx using Guid(86484e94ef264d84f8b385ccfa003f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e73c7a3b6111a723a210d21b9e2c02') in 0.037649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mryotaisu/Models/ColliderWall.fbx
+  artifactKey: Guid(d13945640c9568b48800061c7ef008bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/ColliderWall.fbx using Guid(d13945640c9568b48800061c7ef008bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee60755c60786fd34d5660dea8f87647') in 0.051734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mryotaisu/Models/LevelColumn.fbx
+  artifactKey: Guid(ab96287df77e4d840a5483ff976b8338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/LevelColumn.fbx using Guid(ab96287df77e4d840a5483ff976b8338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0f672572c411632a3bfedecda2ced6') in 0.031662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mryotaisu/Models/ColliderFloor.fbx
+  artifactKey: Guid(59bdc9c5f723be2479bf48e988a641d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/ColliderFloor.fbx using Guid(59bdc9c5f723be2479bf48e988a641d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d115362075c602ae5825d9dfef18fdc') in 0.033324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mryotaisu/Models/ColliderWallDoor.fbx
+  artifactKey: Guid(47cf77f030fede24c8a71981b1880d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/ColliderWallDoor.fbx using Guid(47cf77f030fede24c8a71981b1880d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e9248566ac6bfb3cd749513929f2e4') in 0.035448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.554979 seconds.
+  path: Assets/Mryotaisu/Models/Materials/Body.mat
+  artifactKey: Guid(4e5eba59f08ff9f4e9fe9b539f7e69ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/Materials/Body.mat using Guid(4e5eba59f08ff9f4e9fe9b539f7e69ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86497988bc741f56baf3782e43e9513a') in 0.351602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mryotaisu/Models/Materials/LevelAo.png
+  artifactKey: Guid(a525948bda3abec4b959ddb9cef18340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/Materials/LevelAo.png using Guid(a525948bda3abec4b959ddb9cef18340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb9eb95315edac01400d6cbd162a55d') in 0.029097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Mryotaisu/Models/Materials/LevelIllum.png
+  artifactKey: Guid(cbced3d884226b7458bcaaa20484a142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/Materials/LevelIllum.png using Guid(cbced3d884226b7458bcaaa20484a142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abffca7004362de55e33c715be8eb68f') in 0.014467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Mryotaisu/Models/Materials/Face.png
+  artifactKey: Guid(3a334132f09f4fa4fac5a55876e1847e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/Materials/Face.png using Guid(3a334132f09f4fa4fac5a55876e1847e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1062e8e40dc9c0481b33b017105b2f9') in 0.024777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mryotaisu/Models/Materials/LevelDif.png
+  artifactKey: Guid(604ad3d4c543ffe48ae11649d5e89063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/Materials/LevelDif.png using Guid(604ad3d4c543ffe48ae11649d5e89063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4970ef0e9770e14df3f4641ba700933') in 0.015088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mryotaisu/Models/Materials/HairNormal.png
+  artifactKey: Guid(ec0e0e6c6e56cc14b8e309b6c13ec280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/Materials/HairNormal.png using Guid(ec0e0e6c6e56cc14b8e309b6c13ec280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ef0605f254581362de154e4ec01798') in 0.021482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mryotaisu/Models/Materials/Face.mat
+  artifactKey: Guid(447a3e19bc696294286fb0f6df98409c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/Materials/Face.mat using Guid(447a3e19bc696294286fb0f6df98409c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24553a3ab42fbe79bf8e155e48349be0') in 0.024636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.164226 seconds.
+  path: Assets/Mryotaisu/Prefabs/LevelColumn.prefab
+  artifactKey: Guid(d28b04ff39b93f44c8f5d0733c5944fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Prefabs/LevelColumn.prefab using Guid(d28b04ff39b93f44c8f5d0733c5944fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de867ae646a9f5e66edf125ba724b61f') in 0.042993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mryotaisu/Prefabs/LevelRoof.prefab
+  artifactKey: Guid(1ce76ee8b1b9eb34389af608664d6f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Prefabs/LevelRoof.prefab using Guid(1ce76ee8b1b9eb34389af608664d6f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7a44bf952338a5c06c95c9e4d48a60') in 0.068307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mryotaisu/Prefabs/LevelWallDoor.prefab
+  artifactKey: Guid(9d6fdd0421363ed469358421961f92f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Prefabs/LevelWallDoor.prefab using Guid(9d6fdd0421363ed469358421961f92f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26096d6dfcabbbf15333ba987be8a13') in 0.063769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mryotaisu/Prefabs/LevelWall.prefab
+  artifactKey: Guid(b488ac86c2502b847a7120be7c2170e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Prefabs/LevelWall.prefab using Guid(b488ac86c2502b847a7120be7c2170e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ec860dc4f22eac1e340090d13aa204') in 0.043699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mryotaisu/Prefabs/LevelMonitor.prefab
+  artifactKey: Guid(2b2ec4e1b59396f438a38fe8953b4bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Prefabs/LevelMonitor.prefab using Guid(2b2ec4e1b59396f438a38fe8953b4bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b973f3743e22f1b7950b75cf74862119') in 0.049782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mryotaisu/Prefabs/LevelFloor.prefab
+  artifactKey: Guid(c07a91a2a08b62044878717a4b071752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Prefabs/LevelFloor.prefab using Guid(c07a91a2a08b62044878717a4b071752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e48c30572750eecd1ae1daf13f5bc3') in 0.031279 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,9 @@
+socket
+os
+opencv-python
+time
+imutils
+argparse
+numpy
+mediapipe
+argparse
