@@ -1,0 +1,8 @@
+﻿2.1.5
+Changelog:
+-Increased FBX blend-shapes limit.
+-Fixed FBX ASCII reader issue.
+-Fixed FBX pivot issue.
+-Fixed AssetLoaderOptionsEditor typo.
+-Fixed gLTF2 Metallic/Smoothness Texture creation.
+-Added onPreLoad parameter to AssetLoader.LoadModelFromStream and AssetLoader.LoadModelFromFile. Use this parameter when you want to call a completion method on the loading Thread (onComplete is different from onPreLoad as it is always called on the main thread).
